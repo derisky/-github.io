@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pages
+    xmlns="urn:WunderApp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <page pageid="6" caption="REF PLAN">
+        <excelcontent id="1">
+            <items>
+                <item id="uB9gG3CU" caption="uB9gG3CU" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=38</itemdefinitions>
+                </item>
+                <item id="mg2bcz4C" caption="FLIGHT NO" inputtype="input" contenttype="string" address="Sheet3!B2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#46b5f6;groupname=uB9gG3CU;valuehorzalign=center;buttonheight=40</itemdefinitions>
+                </item>
+                <item id="dNjmvSgb" caption="DENSITY" inputtype="input" contenttype="double" address="Sheet3!B5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#e6f545;groupname=uB9gG3CU;buttonheight=40</itemdefinitions>
+                </item>
+                <item id="I2S5TRps" caption="I2S5TRps" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=58</itemdefinitions>
+                </item>
+                <item id="0mGv2lDK" caption="ETD" inputtype="output" contenttype="result" address="Sheet3!B12">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuetextcolor=#46b5f6;buttonheight=30;groupname=I2S5TRps</itemdefinitions>
+                </item>
+                <item id="tlAwGvLl" caption="STD" inputtype="output" contenttype="result" address="Sheet3!B4">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#f5ec45;groupname=I2S5TRps;buttonheight=30</itemdefinitions>
+                </item>
+                <item id="Ams0Lj6M" caption="DEST" inputtype="output" contenttype="result" address="Sheet3!B3">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#f5f50c;groupname=I2S5TRps;buttonheight=30</itemdefinitions>
+                </item>
+                <item id="dIX1MDtX" caption="dIX1MDtX" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=72</itemdefinitions>
+                </item>
+                <item id="HLIZwqWE" caption="FINAL FUEL" inputtype="output" contenttype="result" address="Sheet3!B8">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#45f55f;groupname=dIX1MDtX;metrictext=LITER;buttonheight=60</itemdefinitions>
+                </item>
+                <item id="XYmfzRSm" caption="EST. Fuel Uplift" inputtype="output" contenttype="result" address="Sheet3!B9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#f2e013;groupname=dIX1MDtX;metrictext=LITER;buttonheight=50</itemdefinitions>
+                </item>
+                <item id="gddiUTPv" caption="gddiUTPv" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=35</itemdefinitions>
+                </item>
+                <item id="KogqE7IP" caption="REQUEST" inputtype="input" contenttype="string" address="Sheet3!B6">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=26;valuetextcolor=#585e61;groupname=gddiUTPv;metrictext=KG;valuehorzalign=center;buttonheight=30</itemdefinitions>
+                </item>
+                <item id="ahyII9A2" caption="REMAIN" inputtype="input" contenttype="string" address="Sheet3!B7">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#000000;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=26;valuetextcolor=#4a555c;groupname=gddiUTPv;metrictext=KG;buttonheight=30;valuehorzalign=center</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3f" caption="DENS&apos; 15">
+        <excelcontent id="1">
+            <items>
+                <item id="IjwdBHCH" caption="IjwdBHCH" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90</itemdefinitions>
+                </item>
+                <item id="DdgtJntw" caption="TEMP OBS" inputtype="input" contenttype="integer" address="CAL!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#f0f70c;groupname=IjwdBHCH;metrictext=Celcius</itemdefinitions>
+                </item>
+                <item id="aSNmQ6Lf" caption="DEN OBS" inputtype="input" contenttype="double" address="CAL!B2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#f5f245;groupname=IjwdBHCH;metrictext=kg/l;valuefontstyle=regular</itemdefinitions>
+                </item>
+                <item id="QXgFnWkI" caption="DENS 15" inputtype="output" contenttype="result" address="CAL!B6">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#46b5f6;metrictext=kg/l;buttonheight=64</itemdefinitions>
+                </item>
+                <item id="J0MoeESf" caption="J0MoeESf" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90</itemdefinitions>
+                </item>
+                <item id="FJRKzNXx" caption="INPUT" inputtype="input" contenttype="integer" address="CAL!B4">
+                    <itemdefinitions>usecellformat=false;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#f0e226;groupname=J0MoeESf;valuefontstyle=regular;numberformat=N0</itemdefinitions>
+                </item>
+                <item id="vDXequ4C" caption="SATUAN (L,L15,BB6,LTON,MT)" inputtype="input" contenttype="toggle" address="CAL!C4">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#46b5f6;groupname=J0MoeESf</itemdefinitions>
+                </item>
+                <item id="mogpxLq2" caption="mogpxLq2" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="Cn831PIw" caption="LITER 15" inputtype="output" contenttype="result" address="CAL!B8">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=30;valuetextcolor=#46b5f6;groupname=mogpxLq2;metrictext=liter 15</itemdefinitions>
+                </item>
+                <item id="Ce8obyeR" caption="VOL OBS" inputtype="output" contenttype="result" address="CAL!B5">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=30;valuetextcolor=#46b5f6;groupname=mogpxLq2;metrictext=Liters</itemdefinitions>
+                </item>
+                <item id="McuW7Ljd" caption="BB6" inputtype="output" contenttype="result" address="CAL!B9">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=30;valuetextcolor=#46b5f6;metrictext=Barrel 60 F;buttonheight=80.9896</itemdefinitions>
+                </item>
+                <item id="nXLYMY5a" caption="nXLYMY5a" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=95.9943</itemdefinitions>
+                </item>
+                <item id="3xxHUlaA" caption="MetricTON" inputtype="output" contenttype="result" address="CAL!B11">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#46b5f6;groupname=nXLYMY5a</itemdefinitions>
+                </item>
+                <item id="5PcnbUma" caption="LongTON" inputtype="output" contenttype="result" address="CAL!B10">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#46b5f6;groupname=nXLYMY5a</itemdefinitions>
+                </item>
+                <item caption="VCF" inputtype="output" contenttype="result" address="&apos;Table 54&apos;!G171" id="Fo4c2bEf">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=20;valuetextcolor=#46b5f6;valuefontsize=28</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="3" caption="RF DIP" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="1">
+            <items>
+                <item id="me0fok3U" caption="HND 02,09,18,20,22,23,24" contenttype="header">
+                    <itemdefinitions>backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=38;valuetextcolor=#46b5f6;textcolor=#c9c618;height=50.5398</itemdefinitions>
+                </item>
+                <item id="wB6UfKwb" caption="wB6UfKwb" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions>buttonheight=90</itemdefinitions>
+                </item>
+                <item id="sMHVb3g5" caption="HND-" inputtype="input" contenttype="toggle" address="&apos;DPPU Tank&apos;!C3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#46b5f6;groupname=wB6UfKwb</itemdefinitions>
+                </item>
+                <item id="3p1auxCy" caption="TINGGI" inputtype="input" contenttype="currency" address="&apos;DPPU Tank&apos;!C5">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#0a0909;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#05f01c;metrictext=CM;buttonheight=50;groupname=wB6UfKwb</itemdefinitions>
+                </item>
+                <item id="9bSriVaZ" caption="VOLUME" inputtype="output" contenttype="result" address="&apos;DPPU Tank&apos;!C7">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#0f0d0d;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#07f227;metrictext=LITER (OBS);buttonheight=78.9915</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+    <page pageid="4" caption="PDG CORRECTION" definitions="summarywidth=110;summaryopacity=6;summarybackgroundcolor=#AC190D">
+        <excelcontent id="1">
+            <items>
+                <item id="me8wrf6r" caption="me8wrf6r" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="8BLwG3zc" caption="Vesel Filter Max Flow Rate" inputtype="input" contenttype="integer" address="&apos;PDG Correction&apos;!B1">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=25;valuetextcolor=#46b5f6;metrictext=LPM;groupname=me8wrf6r;buttonheight=30</itemdefinitions>
+                </item>
+                <item id="1B9hujxv" caption="Actual Flow Rate" inputtype="input" contenttype="double" address="&apos;PDG Correction&apos;!B2">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#46b5f6;metrictext=LPM;groupname=me8wrf6r;buttonheight=30</itemdefinitions>
+                </item>
+                <item id="qFUiL6IL" caption="qFUiL6IL" inputtype="output" contenttype="grouplayout">
+                    <itemdefinitions></itemdefinitions>
+                </item>
+                <item id="DXDCNQm2" caption="PDG Actual Reading" inputtype="input" contenttype="currency" address="&apos;PDG Correction&apos;!B3">
+                    <itemdefinitions>usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#46b5f6;metrictext=PSI;groupname=qFUiL6IL;buttonheight=30</itemdefinitions>
+                </item>
+                <item id="rStyeEKC" caption="PDG Correction" inputtype="output" contenttype="result" address="&apos;PDG Correction&apos;!B4">
+                    <itemdefinitions>nocaption=true;usecellformat=true;backgroundcolor=#2a2a2a;buttonradius=0;elementcolor=#09679b;metrictextcolor=#aaaaaa;metricfontsize=12;valuefontsize=28;valuetextcolor=#eff545;metrictext=PSI;groupname=qFUiL6IL;buttonheight=30</itemdefinitions>
+                </item>
+            </items>
+        </excelcontent>
+    </page>
+</pages>
